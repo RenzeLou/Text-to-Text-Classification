@@ -1,5 +1,6 @@
 # data
-data/
+data/banking_data/cls/
+data/banking_data/gen/
 beaker_configs/ni_*.yaml
 backup/
 

@@ -60,7 +60,7 @@ The results are shown in the following table:
 </tr>
 <tr style="height: 18px;">
 <td style="height: 18px; width: 128.219px;">T5-3B</td>
-<td style="text-align: center; height: 18px; width: 144.25px;"><span style="color: #ff0000;">86.5909</span></td>
+<td style="text-align: center; height: 18px; width: 144.25px;">94.4156</td>
 <td style="text-align: center; height: 18px; width: 128.219px;">93.7987</td>
 <td style="text-align: center; height: 18px; width: 170.312px;">99.9351</td>
 </tr>
@@ -68,5 +68,5 @@ The results are shown in the following table:
 </table>
 
 
-**TODO**:
-- check the reason of the wired result of text-to-indices T5-3B.
+<!-- **TODO**:
+- check the reason of the wired result of text-to-indices T5-3B. -->

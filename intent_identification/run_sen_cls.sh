@@ -69,6 +69,10 @@ python run_sen_cls.py \
     --label_column_name category \
     --label2ids /scratch/rml6079/project/GEN_CLS/intent_identification/data/banking_data/cls/categories2id.json
 
+# export lr=1e-4  # 94.2857
+# export lr=3e-4  # 89.8052
+# export lr=5e-5 # 94.1558
+export lr=1e-4 
 export model="t5-3b"
 export out_dir="out/cls/${model}"
 python run_sen_cls.py \

@@ -15,7 +15,7 @@ from transformers.models.t5.modeling_t5 import T5EncoderModel, T5Config
 #         self.out_projector = nn.Linear(config.hidden_size, config.num_labels)
 
 #     def forward(self, hidden_states, **kwargs):
-#         hidden_states = hidden_states[:, 0, :]  # take <s> token (equiv. to [CLS])
+#         hidden_states = hidden_states[:, 0, :]  # take <s> token (equiv. to [CLS]) # 90.1948
 #         hidden_states = self.dropout(hidden_states)
 #         hidden_states = self.dense_projector(hidden_states)
 #         hidden_states = torch.tanh(hidden_states)
@@ -33,11 +33,43 @@ class T5EncoderClassificationHead(nn.Module):
         self.out_projector = nn.Linear(config.hidden_size, config.num_labels)
 
     def forward(self, hidden_states, **kwargs):
-        # hidden_states = hidden_states[:, 0, :]  # take <s> token (equiv. to [CLS])
-        hidden_states = torch.mean(hidden_states, dim=1)
+        hidden_states = hidden_states[:, 0, :]  # take <s> token (equiv. to [CLS])
+        # hidden_states = torch.mean(hidden_states, dim=1)
         hidden_states = self.dropout(hidden_states)
         hidden_states = self.out_projector(hidden_states)
         return hidden_states
+
+
+# class T5EncoderClassificationHead(nn.Module):
+#     """Head for sentence-level classification tasks."""
+
+#     def __init__(self, config):
+#         super().__init__()
+#         '''
+#         pooler: maxpooling
+#         dense_1: (hidden_size, hidden_size)
+#         activation: tanh
+#         dense_2: (hidden_size, hidden_size)
+#         dropout
+#         output: (hidden_size, num_labels)
+#         '''
+#         self.dense_projector = nn.Linear(config.hidden_size, config.hidden_size)
+#         self.dense2_projector = nn.Linear(config.hidden_size, config.hidden_size)
+#         classifier_dropout = config.classifier_dropout 
+#         self.dropout = nn.Dropout(classifier_dropout)
+#         self.out_projector = nn.Linear(config.hidden_size, config.num_labels)
+
+#     def forward(self, hidden_states, **kwargs):
+#         hidden_states = hidden_states[:, 0, :]  # take <s> token (equiv. to [CLS]) # 89.2857
+#         # hidden_states = torch.max(hidden_states, dim=1)[0] # 22, so bad 
+#         # hidden_states = torch.mean(hidden_states, dim=1)  # 88.7338
+#         # hidden_states = self.dropout(hidden_states)
+#         hidden_states = self.dense_projector(hidden_states)
+#         hidden_states = torch.tanh(hidden_states)
+#         hidden_states = self.dense2_projector(hidden_states)
+#         hidden_states = self.dropout(hidden_states)
+#         hidden_states = self.out_projector(hidden_states)
+#         return hidden_states
 
 
 class T5ConfigForSequenceClassification(T5Config):
@@ -60,6 +92,13 @@ class T5EncoderForSequenceClassification(T5EncoderModel):
         self.classifier = T5EncoderClassificationHead(config)
         assert self.encoder is not None, "T5EncoderForSequenceClassification requires an encoder"
         
+    def freeze_encoder(self, signal:bool):
+        for param in self.encoder.parameters():
+            param.requires_grad = signal
+            
+    def freeze_projector(self, signal:bool):
+        for param in self.classifier.parameters():
+            param.requires_grad = signal
 
     def forward(
         self,

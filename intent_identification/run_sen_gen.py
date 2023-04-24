@@ -328,7 +328,7 @@ def main():
     transformers.utils.logging.enable_explicit_format()
     
     # disable wandb logging
-    wandb.init(mode="disabled")
+    # wandb.init(mode="disabled")
     
     if data_args.label2ids is not None:
         with open(data_args.label2ids, "r") as f:

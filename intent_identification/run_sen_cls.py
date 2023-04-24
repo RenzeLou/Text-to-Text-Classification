@@ -259,7 +259,7 @@ def main():
     # information sent is the one passed as arguments along with your Python/PyTorch versions.
     # send_example_telemetry("run_glue", model_args, data_args)
 
-    wandb.init(mode="disabled")
+    # wandb.init(mode="disabled")
     
     is_regression = False  # set it globally
     

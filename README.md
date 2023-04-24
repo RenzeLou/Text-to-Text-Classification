@@ -28,3 +28,4 @@ pip install -r requirements.txt
 ## 3. News
 
 - 04/10/2023: Add code for **Indent Indentification** task. We use [*banking_data*](https://github.com/PolyAI-LDN/task-specific-datasets/tree/master/banking_data) for experiments. See the [README](./intent_identification/README.md) for more details.
+- 04/24/2023: Upload few-shot training.

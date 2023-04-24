@@ -1,0 +1,810 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.0
+    cli_version: 0.14.2
+    framework: huggingface
+    huggingface_version: 4.27.4
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1682129372.111445
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      - 71
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      - 71
+      3:
+      - 7
+      - 13
+      - 23
+      4: 3.8.0
+      5: 0.14.2
+      6: 4.27.4
+      8:
+      - 5
+    m:
+    - 1: train/global_step
+      6:
+      - 3
+    - 1: eval/runtime
+      5: 1
+      6:
+      - 1
+    - 1: eval/samples_per_second
+      5: 1
+      6:
+      - 1
+    - 1: eval/steps_per_second
+      5: 1
+      6:
+      - 1
+    - 1: train/epoch
+      5: 1
+      6:
+      - 1
+    - 1: train/train_runtime
+      5: 1
+      6:
+      - 1
+    - 1: train/train_samples_per_second
+      5: 1
+      6:
+      - 1
+    - 1: train/train_steps_per_second
+      5: 1
+      6:
+      - 1
+    - 1: train/total_flos
+      5: 1
+      6:
+      - 1
+    - 1: train/train_loss
+      5: 1
+      6:
+      - 1
+vocab_size:
+  desc: null
+  value: 32100
+d_model:
+  desc: null
+  value: 1024
+d_kv:
+  desc: null
+  value: 128
+d_ff:
+  desc: null
+  value: 16384
+num_layers:
+  desc: null
+  value: 24
+num_decoder_layers:
+  desc: null
+  value: 24
+num_heads:
+  desc: null
+  value: 32
+relative_attention_num_buckets:
+  desc: null
+  value: 32
+relative_attention_max_distance:
+  desc: null
+  value: 128
+dropout_rate:
+  desc: null
+  value: 0.1
+layer_norm_epsilon:
+  desc: null
+  value: 1.0e-06
+initializer_factor:
+  desc: null
+  value: 1.0
+feed_forward_proj:
+  desc: null
+  value: relu
+use_cache:
+  desc: null
+  value: true
+dense_act_fn:
+  desc: null
+  value: relu
+is_gated_act:
+  desc: null
+  value: false
+return_dict:
+  desc: null
+  value: true
+output_hidden_states:
+  desc: null
+  value: false
+output_attentions:
+  desc: null
+  value: false
+torchscript:
+  desc: null
+  value: false
+torch_dtype:
+  desc: null
+  value: null
+use_bfloat16:
+  desc: null
+  value: false
+tf_legacy_loss:
+  desc: null
+  value: false
+pruned_heads:
+  desc: null
+  value: {}
+tie_word_embeddings:
+  desc: null
+  value: true
+is_encoder_decoder:
+  desc: null
+  value: true
+is_decoder:
+  desc: null
+  value: false
+cross_attention_hidden_size:
+  desc: null
+  value: null
+add_cross_attention:
+  desc: null
+  value: false
+tie_encoder_decoder:
+  desc: null
+  value: false
+max_length:
+  desc: null
+  value: 20
+min_length:
+  desc: null
+  value: 0
+do_sample:
+  desc: null
+  value: false
+early_stopping:
+  desc: null
+  value: false
+num_beams:
+  desc: null
+  value: 1
+num_beam_groups:
+  desc: null
+  value: 1
+diversity_penalty:
+  desc: null
+  value: 0.0
+temperature:
+  desc: null
+  value: 1.0
+top_k:
+  desc: null
+  value: 50
+top_p:
+  desc: null
+  value: 1.0
+typical_p:
+  desc: null
+  value: 1.0
+repetition_penalty:
+  desc: null
+  value: 1.0
+length_penalty:
+  desc: null
+  value: 1.0
+no_repeat_ngram_size:
+  desc: null
+  value: 0
+encoder_no_repeat_ngram_size:
+  desc: null
+  value: 0
+bad_words_ids:
+  desc: null
+  value: null
+num_return_sequences:
+  desc: null
+  value: 1
+chunk_size_feed_forward:
+  desc: null
+  value: 0
+output_scores:
+  desc: null
+  value: false
+return_dict_in_generate:
+  desc: null
+  value: false
+forced_bos_token_id:
+  desc: null
+  value: null
+forced_eos_token_id:
+  desc: null
+  value: null
+remove_invalid_values:
+  desc: null
+  value: false
+exponential_decay_length_penalty:
+  desc: null
+  value: null
+suppress_tokens:
+  desc: null
+  value: null
+begin_suppress_tokens:
+  desc: null
+  value: null
+architectures:
+  desc: null
+  value:
+  - T5WithLMHeadModel
+finetuning_task:
+  desc: null
+  value: null
+id2label:
+  desc: null
+  value:
+    '0': card_arrival
+    '1': card_linking
+    '2': exchange_rate
+    '3': card_payment_wrong_exchange_rate
+    '4': extra_charge_on_statement
+    '5': pending_cash_withdrawal
+    '6': fiat_currency_support
+    '7': card_delivery_estimate
+    '8': automatic_top_up
+    '9': card_not_working
+    '10': exchange_via_app
+    '11': lost_or_stolen_card
+    '12': age_limit
+    '13': pin_blocked
+    '14': contactless_not_working
+    '15': top_up_by_bank_transfer_charge
+    '16': pending_top_up
+    '17': cancel_transfer
+    '18': top_up_limits
+    '19': wrong_amount_of_cash_received
+    '20': card_payment_fee_charged
+    '21': transfer_not_received_by_recipient
+    '22': supported_cards_and_currencies
+    '23': getting_virtual_card
+    '24': card_acceptance
+    '25': top_up_reverted
+    '26': balance_not_updated_after_cheque_or_cash_deposit
+    '27': card_payment_not_recognised
+    '28': edit_personal_details
+    '29': why_verify_identity
+    '30': unable_to_verify_identity
+    '31': get_physical_card
+    '32': visa_or_mastercard
+    '33': topping_up_by_card
+    '34': disposable_card_limits
+    '35': compromised_card
+    '36': atm_support
+    '37': direct_debit_payment_not_recognised
+    '38': passcode_forgotten
+    '39': declined_cash_withdrawal
+    '40': pending_card_payment
+    '41': lost_or_stolen_phone
+    '42': request_refund
+    '43': declined_transfer
+    '44': Refund_not_showing_up
+    '45': declined_card_payment
+    '46': pending_transfer
+    '47': terminate_account
+    '48': card_swallowed
+    '49': transaction_charged_twice
+    '50': verify_source_of_funds
+    '51': transfer_timing
+    '52': reverted_card_payment?
+    '53': change_pin
+    '54': beneficiary_not_allowed
+    '55': transfer_fee_charged
+    '56': receiving_money
+    '57': failed_transfer
+    '58': transfer_into_account
+    '59': verify_top_up
+    '60': getting_spare_card
+    '61': top_up_by_cash_or_cheque
+    '62': order_physical_card
+    '63': virtual_card_not_working
+    '64': wrong_exchange_rate_for_cash_withdrawal
+    '65': get_disposable_virtual_card
+    '66': top_up_failed
+    '67': balance_not_updated_after_bank_transfer
+    '68': cash_withdrawal_not_recognised
+    '69': exchange_charge
+    '70': top_up_by_card_charge
+    '71': activate_my_card
+    '72': cash_withdrawal_charge
+    '73': card_about_to_expire
+    '74': apple_pay_or_google_pay
+    '75': verify_my_identity
+    '76': country_support
+label2id:
+  desc: null
+  value:
+    card_arrival: 0
+    card_linking: 1
+    exchange_rate: 2
+    card_payment_wrong_exchange_rate: 3
+    extra_charge_on_statement: 4
+    pending_cash_withdrawal: 5
+    fiat_currency_support: 6
+    card_delivery_estimate: 7
+    automatic_top_up: 8
+    card_not_working: 9
+    exchange_via_app: 10
+    lost_or_stolen_card: 11
+    age_limit: 12
+    pin_blocked: 13
+    contactless_not_working: 14
+    top_up_by_bank_transfer_charge: 15
+    pending_top_up: 16
+    cancel_transfer: 17
+    top_up_limits: 18
+    wrong_amount_of_cash_received: 19
+    card_payment_fee_charged: 20
+    transfer_not_received_by_recipient: 21
+    supported_cards_and_currencies: 22
+    getting_virtual_card: 23
+    card_acceptance: 24
+    top_up_reverted: 25
+    balance_not_updated_after_cheque_or_cash_deposit: 26
+    card_payment_not_recognised: 27
+    edit_personal_details: 28
+    why_verify_identity: 29
+    unable_to_verify_identity: 30
+    get_physical_card: 31
+    visa_or_mastercard: 32
+    topping_up_by_card: 33
+    disposable_card_limits: 34
+    compromised_card: 35
+    atm_support: 36
+    direct_debit_payment_not_recognised: 37
+    passcode_forgotten: 38
+    declined_cash_withdrawal: 39
+    pending_card_payment: 40
+    lost_or_stolen_phone: 41
+    request_refund: 42
+    declined_transfer: 43
+    Refund_not_showing_up: 44
+    declined_card_payment: 45
+    pending_transfer: 46
+    terminate_account: 47
+    card_swallowed: 48
+    transaction_charged_twice: 49
+    verify_source_of_funds: 50
+    transfer_timing: 51
+    reverted_card_payment?: 52
+    change_pin: 53
+    beneficiary_not_allowed: 54
+    transfer_fee_charged: 55
+    receiving_money: 56
+    failed_transfer: 57
+    transfer_into_account: 58
+    verify_top_up: 59
+    getting_spare_card: 60
+    top_up_by_cash_or_cheque: 61
+    order_physical_card: 62
+    virtual_card_not_working: 63
+    wrong_exchange_rate_for_cash_withdrawal: 64
+    get_disposable_virtual_card: 65
+    top_up_failed: 66
+    balance_not_updated_after_bank_transfer: 67
+    cash_withdrawal_not_recognised: 68
+    exchange_charge: 69
+    top_up_by_card_charge: 70
+    activate_my_card: 71
+    cash_withdrawal_charge: 72
+    card_about_to_expire: 73
+    apple_pay_or_google_pay: 74
+    verify_my_identity: 75
+    country_support: 76
+tokenizer_class:
+  desc: null
+  value: null
+prefix:
+  desc: null
+  value: null
+bos_token_id:
+  desc: null
+  value: null
+pad_token_id:
+  desc: null
+  value: 0
+eos_token_id:
+  desc: null
+  value: 1
+sep_token_id:
+  desc: null
+  value: null
+decoder_start_token_id:
+  desc: null
+  value: 0
+task_specific_params:
+  desc: null
+  value:
+    summarization:
+      early_stopping: true
+      length_penalty: 2.0
+      max_length: 200
+      min_length: 30
+      no_repeat_ngram_size: 3
+      num_beams: 4
+      prefix: 'summarize: '
+    translation_en_to_de:
+      early_stopping: true
+      max_length: 300
+      num_beams: 4
+      prefix: 'translate English to German: '
+    translation_en_to_fr:
+      early_stopping: true
+      max_length: 300
+      num_beams: 4
+      prefix: 'translate English to French: '
+    translation_en_to_ro:
+      early_stopping: true
+      max_length: 300
+      num_beams: 4
+      prefix: 'translate English to Romanian: '
+problem_type:
+  desc: null
+  value: single_label_classification
+_name_or_path:
+  desc: null
+  value: t5-3b
+transformers_version:
+  desc: null
+  value: 4.27.4
+model_type:
+  desc: null
+  value: t5
+n_positions:
+  desc: null
+  value: 512
+output_past:
+  desc: null
+  value: true
+classifier_dropout:
+  desc: null
+  value: 0.2
+output_dir:
+  desc: null
+  value: ./out/5-shot/cls/t5-3b/
+overwrite_output_dir:
+  desc: null
+  value: true
+do_train:
+  desc: null
+  value: true
+do_eval:
+  desc: null
+  value: true
+do_predict:
+  desc: null
+  value: true
+evaluation_strategy:
+  desc: null
+  value: epoch
+prediction_loss_only:
+  desc: null
+  value: false
+per_device_train_batch_size:
+  desc: null
+  value: 16
+per_device_eval_batch_size:
+  desc: null
+  value: 16
+per_gpu_train_batch_size:
+  desc: null
+  value: None
+per_gpu_eval_batch_size:
+  desc: null
+  value: None
+gradient_accumulation_steps:
+  desc: null
+  value: 1
+eval_accumulation_steps:
+  desc: null
+  value: None
+eval_delay:
+  desc: null
+  value: 0
+learning_rate:
+  desc: null
+  value: 0.0001
+weight_decay:
+  desc: null
+  value: 0.0
+adam_beta1:
+  desc: null
+  value: 0.9
+adam_beta2:
+  desc: null
+  value: 0.999
+adam_epsilon:
+  desc: null
+  value: 1.0e-08
+max_grad_norm:
+  desc: null
+  value: 1.0
+num_train_epochs:
+  desc: null
+  value: 2.0
+max_steps:
+  desc: null
+  value: -1
+lr_scheduler_type:
+  desc: null
+  value: linear
+warmup_ratio:
+  desc: null
+  value: 0.0
+warmup_steps:
+  desc: null
+  value: 0
+log_level:
+  desc: null
+  value: passive
+log_level_replica:
+  desc: null
+  value: warning
+log_on_each_node:
+  desc: null
+  value: true
+logging_dir:
+  desc: null
+  value: ./out/5-shot/cls/t5-3b/runs/Apr21_22-09-14_e5-cse-cbwfy01
+logging_strategy:
+  desc: null
+  value: steps
+logging_first_step:
+  desc: null
+  value: false
+logging_steps:
+  desc: null
+  value: 500
+logging_nan_inf_filter:
+  desc: null
+  value: true
+save_strategy:
+  desc: null
+  value: 'no'
+save_steps:
+  desc: null
+  value: 500
+save_total_limit:
+  desc: null
+  value: None
+save_on_each_node:
+  desc: null
+  value: false
+no_cuda:
+  desc: null
+  value: false
+use_mps_device:
+  desc: null
+  value: false
+seed:
+  desc: null
+  value: 42
+data_seed:
+  desc: null
+  value: None
+jit_mode_eval:
+  desc: null
+  value: false
+use_ipex:
+  desc: null
+  value: false
+bf16:
+  desc: null
+  value: false
+fp16:
+  desc: null
+  value: false
+fp16_opt_level:
+  desc: null
+  value: O1
+half_precision_backend:
+  desc: null
+  value: auto
+bf16_full_eval:
+  desc: null
+  value: false
+fp16_full_eval:
+  desc: null
+  value: false
+tf32:
+  desc: null
+  value: None
+local_rank:
+  desc: null
+  value: -1
+xpu_backend:
+  desc: null
+  value: None
+tpu_num_cores:
+  desc: null
+  value: None
+tpu_metrics_debug:
+  desc: null
+  value: false
+debug:
+  desc: null
+  value: '[]'
+dataloader_drop_last:
+  desc: null
+  value: false
+eval_steps:
+  desc: null
+  value: None
+dataloader_num_workers:
+  desc: null
+  value: 0
+past_index:
+  desc: null
+  value: -1
+run_name:
+  desc: null
+  value: 5-shot_cls_t5-3b
+disable_tqdm:
+  desc: null
+  value: false
+remove_unused_columns:
+  desc: null
+  value: true
+label_names:
+  desc: null
+  value: None
+load_best_model_at_end:
+  desc: null
+  value: false
+metric_for_best_model:
+  desc: null
+  value: None
+greater_is_better:
+  desc: null
+  value: None
+ignore_data_skip:
+  desc: null
+  value: false
+sharded_ddp:
+  desc: null
+  value: '[]'
+fsdp:
+  desc: null
+  value: '[]'
+fsdp_min_num_params:
+  desc: null
+  value: 0
+fsdp_config:
+  desc: null
+  value: '{''fsdp_min_num_params'': 0, ''xla'': False, ''xla_fsdp_grad_ckpt'': False}'
+fsdp_transformer_layer_cls_to_wrap:
+  desc: null
+  value: None
+deepspeed:
+  desc: null
+  value: None
+label_smoothing_factor:
+  desc: null
+  value: 0.0
+optim:
+  desc: null
+  value: adamw_hf
+optim_args:
+  desc: null
+  value: None
+adafactor:
+  desc: null
+  value: false
+group_by_length:
+  desc: null
+  value: false
+length_column_name:
+  desc: null
+  value: length
+report_to:
+  desc: null
+  value: '[''wandb'']'
+ddp_find_unused_parameters:
+  desc: null
+  value: None
+ddp_bucket_cap_mb:
+  desc: null
+  value: None
+dataloader_pin_memory:
+  desc: null
+  value: true
+skip_memory_metrics:
+  desc: null
+  value: true
+use_legacy_prediction_loop:
+  desc: null
+  value: false
+push_to_hub:
+  desc: null
+  value: false
+resume_from_checkpoint:
+  desc: null
+  value: None
+hub_model_id:
+  desc: null
+  value: None
+hub_strategy:
+  desc: null
+  value: every_save
+hub_token:
+  desc: null
+  value: <HUB_TOKEN>
+hub_private_repo:
+  desc: null
+  value: false
+gradient_checkpointing:
+  desc: null
+  value: false
+include_inputs_for_metrics:
+  desc: null
+  value: false
+fp16_backend:
+  desc: null
+  value: auto
+push_to_hub_model_id:
+  desc: null
+  value: None
+push_to_hub_organization:
+  desc: null
+  value: None
+push_to_hub_token:
+  desc: null
+  value: <PUSH_TO_HUB_TOKEN>
+mp_parameters:
+  desc: null
+  value: ''
+auto_find_batch_size:
+  desc: null
+  value: false
+full_determinism:
+  desc: null
+  value: false
+torchdynamo:
+  desc: null
+  value: None
+ray_scope:
+  desc: null
+  value: last
+ddp_timeout:
+  desc: null
+  value: 1800
+torch_compile:
+  desc: null
+  value: false
+torch_compile_backend:
+  desc: null
+  value: None
+torch_compile_mode:
+  desc: null
+  value: None
+learning_rate_proj:
+  desc: null
+  value: 0.003
+train_batch_size:
+  desc: null
+  value: 16
+eval_batch_size:
+  desc: null
+  value: 16

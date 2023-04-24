@@ -19,13 +19,13 @@ Add `--split` to randomly split 10% samples from training set as validation set 
 For text-to-text generation, run the following command:
 
 ```bash
-sh run_sen_gen.sh [GPU] [batch_size]
+sh scripts/run_sen_gen.sh [GPU] [batch_size]
 ```
 
 For text-to-indices classification, run the following command:
 
 ```bash
-sh run_sen_cls.sh [GPU] [batch_size]
+sh scripts/run_sen_cls.sh [GPU] [batch_size]
 ```
 
 The results will be saved in `./out` folder.

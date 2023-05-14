@@ -139,3 +139,4 @@ output_attention/
 output/
 download/
 .vscode/
+SuperNI/data/tasks/

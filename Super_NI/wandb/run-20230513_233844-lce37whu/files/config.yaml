@@ -1,0 +1,331 @@
+wandb_version: 1
+
+output_dir:
+  desc: null
+  value: output_generator/t5-3b-mix_gen_true
+overwrite_output_dir:
+  desc: null
+  value: true
+do_train:
+  desc: null
+  value: true
+do_eval:
+  desc: null
+  value: true
+do_predict:
+  desc: null
+  value: true
+evaluation_strategy:
+  desc: null
+  value: IntervalStrategy.EPOCH
+prediction_loss_only:
+  desc: null
+  value: false
+per_device_train_batch_size:
+  desc: null
+  value: 4
+per_device_eval_batch_size:
+  desc: null
+  value: 4
+per_gpu_train_batch_size:
+  desc: null
+  value: null
+per_gpu_eval_batch_size:
+  desc: null
+  value: null
+gradient_accumulation_steps:
+  desc: null
+  value: 2
+eval_accumulation_steps:
+  desc: null
+  value: null
+eval_delay:
+  desc: null
+  value: 0
+learning_rate:
+  desc: null
+  value: 5.0e-05
+weight_decay:
+  desc: null
+  value: 0.0
+adam_beta1:
+  desc: null
+  value: 0.9
+adam_beta2:
+  desc: null
+  value: 0.999
+adam_epsilon:
+  desc: null
+  value: 1.0e-08
+max_grad_norm:
+  desc: null
+  value: 1.0
+num_train_epochs:
+  desc: null
+  value: 2.0
+max_steps:
+  desc: null
+  value: -1
+lr_scheduler_type:
+  desc: null
+  value: SchedulerType.CONSTANT
+warmup_ratio:
+  desc: null
+  value: 0.0
+warmup_steps:
+  desc: null
+  value: 0
+log_level:
+  desc: null
+  value: -1
+log_level_replica:
+  desc: null
+  value: -1
+log_on_each_node:
+  desc: null
+  value: true
+logging_dir:
+  desc: null
+  value: output_generator/t5-3b-mix_gen_true/runs/May13_23-38-42_e5-cse-cbwfy01
+logging_strategy:
+  desc: null
+  value: IntervalStrategy.STEPS
+logging_first_step:
+  desc: null
+  value: false
+logging_steps:
+  desc: null
+  value: 500
+logging_nan_inf_filter:
+  desc: null
+  value: true
+save_strategy:
+  desc: null
+  value: IntervalStrategy.NO
+save_steps:
+  desc: null
+  value: 2500
+save_total_limit:
+  desc: null
+  value: null
+save_on_each_node:
+  desc: null
+  value: false
+no_cuda:
+  desc: null
+  value: false
+seed:
+  desc: null
+  value: 42
+data_seed:
+  desc: null
+  value: null
+bf16:
+  desc: null
+  value: true
+fp16:
+  desc: null
+  value: false
+fp16_opt_level:
+  desc: null
+  value: O1
+half_precision_backend:
+  desc: null
+  value: auto
+bf16_full_eval:
+  desc: null
+  value: false
+fp16_full_eval:
+  desc: null
+  value: false
+tf32:
+  desc: null
+  value: null
+local_rank:
+  desc: null
+  value: 0
+xpu_backend:
+  desc: null
+  value: null
+tpu_num_cores:
+  desc: null
+  value: null
+tpu_metrics_debug:
+  desc: null
+  value: false
+debug:
+  desc: null
+  value: []
+dataloader_drop_last:
+  desc: null
+  value: false
+eval_steps:
+  desc: null
+  value: null
+dataloader_num_workers:
+  desc: null
+  value: 0
+past_index:
+  desc: null
+  value: -1
+run_name:
+  desc: null
+  value: train_generator-mix_gen_true
+disable_tqdm:
+  desc: null
+  value: false
+remove_unused_columns:
+  desc: null
+  value: true
+label_names:
+  desc: null
+  value: null
+load_best_model_at_end:
+  desc: null
+  value: false
+metric_for_best_model:
+  desc: null
+  value: null
+greater_is_better:
+  desc: null
+  value: null
+ignore_data_skip:
+  desc: null
+  value: false
+sharded_ddp:
+  desc: null
+  value: []
+deepspeed:
+  desc: null
+  value: ds_configs/stage2.config
+label_smoothing_factor:
+  desc: null
+  value: 0.0
+optim:
+  desc: null
+  value: OptimizerNames.ADAMW_HF
+adafactor:
+  desc: null
+  value: false
+group_by_length:
+  desc: null
+  value: false
+length_column_name:
+  desc: null
+  value: length
+report_to:
+  desc: null
+  value:
+  - tensorboard
+  - wandb
+ddp_find_unused_parameters:
+  desc: null
+  value: null
+ddp_bucket_cap_mb:
+  desc: null
+  value: null
+dataloader_pin_memory:
+  desc: null
+  value: true
+skip_memory_metrics:
+  desc: null
+  value: true
+use_legacy_prediction_loop:
+  desc: null
+  value: false
+push_to_hub:
+  desc: null
+  value: false
+resume_from_checkpoint:
+  desc: null
+  value: null
+hub_model_id:
+  desc: null
+  value: null
+hub_strategy:
+  desc: null
+  value: HubStrategy.EVERY_SAVE
+hub_token:
+  desc: null
+  value: null
+gradient_checkpointing:
+  desc: null
+  value: false
+fp16_backend:
+  desc: null
+  value: auto
+push_to_hub_model_id:
+  desc: null
+  value: null
+push_to_hub_organization:
+  desc: null
+  value: null
+push_to_hub_token:
+  desc: null
+  value: null
+mp_parameters:
+  desc: null
+  value: ''
+sortish_sampler:
+  desc: null
+  value: false
+predict_with_generate:
+  desc: null
+  value: true
+generation_max_length:
+  desc: null
+  value: 128
+generation_num_beams:
+  desc: null
+  value: null
+denser_evaluation:
+  desc: null
+  value: false
+do_demo:
+  desc: null
+  value: false
+_n_gpu:
+  desc: null
+  value: 1
+__cached__setup_devices:
+  desc: null
+  value: cuda:0
+hf_deepspeed_config:
+  desc: null
+  value: <transformers.deepspeed.HfTrainerDeepSpeedConfig object at 0x7fc60ad046a0>
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.0
+    cli_version: 0.15.2
+    framework: huggingface
+    huggingface_version: 4.18.0
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1684035524.26866
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.8.0
+      5: 0.15.2
+      6: 4.18.0
+      8:
+      - 5

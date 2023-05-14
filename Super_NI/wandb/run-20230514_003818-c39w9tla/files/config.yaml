@@ -333,6 +333,3118 @@ _wandb:
     - 1: train/global_step
       6:
       - 3
+    - 1: gradients/decoder\.final_layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.final_layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.final_layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.2\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.2\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.2\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.2\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.2\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.2\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.2\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.2\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.2\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.1\.EncDecAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.1\.EncDecAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.1\.EncDecAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.1\.EncDecAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.1\.EncDecAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.1\.EncDecAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.1\.EncDecAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.1\.EncDecAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.1\.EncDecAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.1\.EncDecAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.1\.EncDecAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.1\.EncDecAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.11\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.2\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.2\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.2\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.2\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.2\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.2\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.2\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.2\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.2\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.1\.EncDecAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.1\.EncDecAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.1\.EncDecAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.1\.EncDecAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.1\.EncDecAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.1\.EncDecAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.1\.EncDecAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.1\.EncDecAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.1\.EncDecAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.1\.EncDecAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.1\.EncDecAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.1\.EncDecAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.10\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.2\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.2\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.2\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.2\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.2\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.2\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.2\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.2\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.2\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.1\.EncDecAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.1\.EncDecAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.1\.EncDecAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.1\.EncDecAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.1\.EncDecAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.1\.EncDecAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.1\.EncDecAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.1\.EncDecAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.1\.EncDecAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.1\.EncDecAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.1\.EncDecAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.1\.EncDecAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.9\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.2\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.2\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.2\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.2\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.2\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.2\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.2\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.2\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.2\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.1\.EncDecAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.1\.EncDecAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.1\.EncDecAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.1\.EncDecAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.1\.EncDecAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.1\.EncDecAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.1\.EncDecAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.1\.EncDecAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.1\.EncDecAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.1\.EncDecAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.1\.EncDecAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.1\.EncDecAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.8\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.2\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.2\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.2\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.2\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.2\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.2\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.2\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.2\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.2\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.1\.EncDecAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.1\.EncDecAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.1\.EncDecAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.1\.EncDecAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.1\.EncDecAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.1\.EncDecAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.1\.EncDecAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.1\.EncDecAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.1\.EncDecAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.1\.EncDecAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.1\.EncDecAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.1\.EncDecAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.7\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.2\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.2\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.2\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.2\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.2\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.2\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.2\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.2\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.2\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.1\.EncDecAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.1\.EncDecAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.1\.EncDecAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.1\.EncDecAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.1\.EncDecAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.1\.EncDecAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.1\.EncDecAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.1\.EncDecAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.1\.EncDecAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.1\.EncDecAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.1\.EncDecAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.1\.EncDecAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.6\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.2\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.2\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.2\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.2\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.2\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.2\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.2\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.2\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.2\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.1\.EncDecAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.1\.EncDecAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.1\.EncDecAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.1\.EncDecAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.1\.EncDecAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.1\.EncDecAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.1\.EncDecAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.1\.EncDecAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.1\.EncDecAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.1\.EncDecAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.1\.EncDecAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.1\.EncDecAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.5\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.2\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.2\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.2\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.2\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.2\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.2\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.2\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.2\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.2\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.1\.EncDecAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.1\.EncDecAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.1\.EncDecAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.1\.EncDecAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.1\.EncDecAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.1\.EncDecAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.1\.EncDecAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.1\.EncDecAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.1\.EncDecAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.1\.EncDecAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.1\.EncDecAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.1\.EncDecAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.4\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.2\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.2\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.2\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.2\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.2\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.2\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.2\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.2\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.2\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.1\.EncDecAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.1\.EncDecAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.1\.EncDecAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.1\.EncDecAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.1\.EncDecAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.1\.EncDecAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.1\.EncDecAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.1\.EncDecAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.1\.EncDecAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.1\.EncDecAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.1\.EncDecAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.1\.EncDecAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.3\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.2\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.2\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.2\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.2\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.2\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.2\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.2\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.2\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.2\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.1\.EncDecAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.1\.EncDecAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.1\.EncDecAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.1\.EncDecAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.1\.EncDecAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.1\.EncDecAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.1\.EncDecAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.1\.EncDecAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.1\.EncDecAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.1\.EncDecAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.1\.EncDecAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.1\.EncDecAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.2\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.2\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.2\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.2\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.2\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.2\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.2\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.2\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.2\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.2\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.1\.EncDecAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.1\.EncDecAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.1\.EncDecAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.1\.EncDecAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.1\.EncDecAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.1\.EncDecAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.1\.EncDecAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.1\.EncDecAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.1\.EncDecAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.1\.EncDecAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.1\.EncDecAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.1\.EncDecAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.1\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.2\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.2\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.2\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.2\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.2\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.2\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.2\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.2\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.2\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.1\.EncDecAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.1\.EncDecAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.1\.EncDecAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.1\.EncDecAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.1\.EncDecAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.1\.EncDecAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.1\.EncDecAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.1\.EncDecAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.1\.EncDecAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.1\.EncDecAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.1\.EncDecAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.1\.EncDecAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.SelfAttention\.relative_attention_bias\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.SelfAttention\.relative_attention_bias\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.SelfAttention\.relative_attention_bias\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.block\.0\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.final_layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.final_layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.final_layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.1\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.1\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.1\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.1\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.1\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.1\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.11\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.1\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.1\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.1\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.1\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.1\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.1\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.10\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.1\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.1\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.1\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.1\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.1\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.1\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.9\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.1\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.1\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.1\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.1\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.1\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.1\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.8\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.1\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.1\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.1\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.1\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.1\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.1\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.7\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.1\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.1\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.1\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.1\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.1\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.1\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.6\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.1\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.1\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.1\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.1\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.1\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.1\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.5\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.1\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.1\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.1\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.1\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.1\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.1\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.4\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.1\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.1\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.1\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.1\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.1\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.1\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.3\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.1\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.1\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.1\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.1\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.1\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.1\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.2\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.1\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.1\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.1\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.1\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.1\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.1\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.1\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.1\.DenseReluDense\.wo\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.1\.DenseReluDense\.wo\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.1\.DenseReluDense\.wo\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.1\.DenseReluDense\.wi\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.1\.DenseReluDense\.wi\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.1\.DenseReluDense\.wi\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.1\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.1\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.1\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.SelfAttention\.o\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.SelfAttention\.o\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.SelfAttention\.o\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.SelfAttention\.relative_attention_bias\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.SelfAttention\.relative_attention_bias\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.SelfAttention\.relative_attention_bias\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.SelfAttention\.v\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.SelfAttention\.v\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.SelfAttention\.v\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.SelfAttention\.k\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.SelfAttention\.k\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.SelfAttention\.k\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.SelfAttention\.q\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.SelfAttention\.q\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.SelfAttention\.q\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.layer_norm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.layer_norm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.block\.0\.layer\.0\.layer_norm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/shared\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/shared\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/shared\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: train/loss
+      5: 1
+      6:
+      - 1
+    - 1: train/learning_rate
+      5: 1
+      6:
+      - 1
+    - 1: train/epoch
+      5: 1
+      6:
+      - 1
+    - 1: eval/global_step
+      5: 1
+      6:
+      - 1
+    - 1: eval/runtime
+      5: 1
+      6:
+      - 1
+    - 1: eval/samples_per_second
+      5: 1
+      6:
+      - 1
+    - 1: eval/steps_per_second
+      5: 1
+      6:
+      - 1
 vocab_size:
   desc: null
   value: 32100

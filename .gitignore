@@ -140,3 +140,4 @@ output/
 download/
 .vscode/
 SuperNI/data/tasks/
+SuperNI/wandb/

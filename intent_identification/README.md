@@ -1,3 +1,18 @@
+## Environment
+
+- Python 3.8.0
+- PyTorch 2.0.0
+- CUDA 11.7
+- Transformers 4.27.4
+
+Prepare the anaconda environment:
+
+```bash
+conda create -n t2t python=3.8.0
+conda activate t2t
+pip install -r requirements.txt
+```
+
 ## Run the experiments
 
 ### 1. Prepare the data

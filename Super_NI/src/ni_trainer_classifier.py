@@ -188,6 +188,7 @@ class NITrainer(Trainer):
             all_labels = nested_truncate(all_labels, num_samples)
 
         # Metrics!
+        predictions, references = [], []
         if self.compute_metrics is not None and all_preds is not None and all_labels is not None and all_candidates is not None:
             all_preds_list = all_preds.tolist() 
             all_labels_list = all_labels.tolist()
@@ -237,7 +238,11 @@ class NITrainer(Trainer):
             if not key.startswith(f"{metric_key_prefix}_"):
                 metrics[f"{metric_key_prefix}_{key}"] = metrics.pop(key)
 
-        return EvalLoopOutput(predictions=predictions, label_ids=references, metrics=metrics, num_samples=num_samples)
+        if len(predictions) > 0 and len(references) > 0:
+            return EvalLoopOutput(predictions=predictions, label_ids=references, metrics=metrics, num_samples=num_samples)
+        else:
+            # note that the predictions can be empty (e.g., empty eval dataset)
+            return EvalLoopOutput(predictions=all_preds, label_ids=all_labels, metrics=metrics, num_samples=num_samples)
 
     def prediction_step(
         self,

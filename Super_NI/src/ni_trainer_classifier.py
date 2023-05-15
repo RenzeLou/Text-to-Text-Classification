@@ -208,6 +208,8 @@ class NITrainer(Trainer):
                     grouped_data[prefix] = {'candidates': [all_candidates[ii]], 'preds': [all_preds_list[ii]], 'labels': [all_labels_list[ii]]}
             # for each group, select the candidate with the highest probability as the prediction, those candidates with label 1 as the ground truth
             predictions, references = [], []
+            pred_prob, ins_id_list = [], []
+            candidate_list = []
             for prefix in grouped_data:
                 candidate = grouped_data[prefix]['candidates']
                 labels = grouped_data[prefix]['labels']
@@ -222,8 +224,12 @@ class NITrainer(Trainer):
                 # select those candidates where the labels are 1
                 ground_truth = [candidate[ii] for ii, label in enumerate(labels) if label == 1]
                 references.append(ground_truth)
-            # then compute the metrics
-            metrics = self.compute_metrics(predictions, references, save_prefix=metric_key_prefix, ids=all_ids)
+                # save the probability for observation
+                pred_prob.append(prob[:,1].tolist())
+                ins_id_list.append(prefix.replace("_candidate", ""))  # note to remove the "_candidate" suffix
+                candidate_list.append(candidate)
+            # then compute and save the metrics
+            metrics = self.compute_metrics(predictions, references, save_prefix=metric_key_prefix, ids=ins_id_list, pred_prob=pred_prob, candidate_list=candidate_list)
         else:
             metrics = {}
 

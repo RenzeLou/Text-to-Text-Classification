@@ -467,7 +467,8 @@ def main():
     training_args.remove_unused_columns = False 
 
     # Metric
-    def compute_ni_metrics(decoded_preds, references, save_prefix=None, ids=None):
+    def compute_ni_metrics(decoded_preds, references, save_prefix=None, ids=None,  pred_prob=None, candidate_list=None):
+        assert len(decoded_preds) == len(references) == len(ids) == len(pred_prob), "lengths of decoded_preds, references, ids, pred_prob should be the same, but now is {}, {}, {}, {}".format(len(decoded_preds), len(references), len(ids), len(pred_prob))
         result = compute_metrics(predictions=decoded_preds, references=references)
         # result_per_task = compute_grouped_metrics(predictions=decoded_preds, references=references, groups=dataset["Task"])
         # result.update(result_per_task)
@@ -478,13 +479,25 @@ def main():
         result["gen_len"] = np.mean(prediction_lens)
         result["eval_ins_num"] = len(decoded_preds)
         result = {k: round(v, 4) for k, v in result.items()}
-        if save_prefix is not None and ids is not None:
+        # also save the prediction probability for further analysis
+        if save_prefix is not None and ids is not None and pred_prob is not None and candidate_list is not None and references is not None:
+            assert len(ids) == len(pred_prob) == len(candidate_list) == len(decoded_preds)
             with open(os.path.join(training_args.output_dir, f"{save_prefix}_eval_predictions.jsonl"), "w") as fout:
-                for id, pred in zip(ids, decoded_preds):
+                for i in range(len(ids)):
+                    id = ids[i]
+                    pred = decoded_preds[i]
+                    prob = pred_prob[i]
+                    candidates = candidate_list[i]
+                    true_answers = references[i]
+                    assert len(candidates) == len(prob)
+                    candidate2prob = {c: p for c, p in zip(candidates, prob)}
                     fout.write(json.dumps({
                         "id": id,
-                        "Prediction": pred
+                        "Prediction": pred,
+                        "Candidates": candidate2prob,
+                        "GroundTruth": true_answers
                     }) + "\n")
+        
         return result
 
     # Initialize our Trainer

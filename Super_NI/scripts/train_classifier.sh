@@ -28,10 +28,11 @@ fi
 
 data_dir=data/splits/default
 task_dir=data/tasks/add_output_space
-output_dir=output_generator/${model}-mix_gen_${train_mix_gen}
+output_dir=output_classifier/${model}-mix_gen_${train_mix_gen}
 Tk_instruct_cache_dir=/scratch/rml6079/project/Tk-Instruct/cache/
+lr_proj=3e-3
 
-deepspeed --master_port $port src/run_s2s.py \
+deepspeed --master_port $port src/run_classifier.py \
     --do_train \
     --do_predict \
     --predict_with_generate \
@@ -67,6 +68,8 @@ deepspeed --master_port $port src/run_s2s.py \
     --save_steps 2500 \
     --deepspeed ds_configs/stage2.config \
     --bf16 \
-    --run_name train_generator-mix_gen_${train_mix_gen} \
+    --run_name train_classifier-mix_gen_${train_mix_gen} \
     --seed 42 \
-    --train_mix_gen ${train_mix_gen}
+    --train_mix_gen ${train_mix_gen} \
+    --classifier_dropout 0.2 \
+    --learning_rate_proj ${lr_proj}

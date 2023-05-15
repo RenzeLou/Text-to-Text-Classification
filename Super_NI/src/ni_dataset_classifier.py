@@ -22,6 +22,8 @@ import os
 import random
 import datasets
 
+from compute_metrics import normalize_answer
+
 logger = datasets.logging.get_logger(__name__)
 
 _CITATION = """
@@ -95,7 +97,9 @@ class NaturalInstructions(datasets.GeneratorBasedBuilder):
                     "Instance": {
                         "id": datasets.Value("string"),
                         "input": datasets.Value("string"),
-                        "output": [datasets.Value("string")]
+                        # "output": [datasets.Value("string")]
+                        "candidate_output": datasets.Value("string"), ## one candidate from the output space
+                        "label": datasets.Value("string"),  ## 0: negative, 1: positive
                     },
                     "Instance License": [datasets.Value("string")]
                 }
@@ -174,7 +178,6 @@ class NaturalInstructions(datasets.GeneratorBasedBuilder):
     #         return True
 
     def is_gen_task(self, task_data):
-        # use output_space_size to determine whether it is a generation task
         # output_space_size == -1 means there are numerous output spaces, we regard it as a generation tasks
         if task_data["output_space_size"] == -1:
             return True
@@ -184,6 +187,7 @@ class NaturalInstructions(datasets.GeneratorBasedBuilder):
     def _generate_examples(self, path=None, task_dir=None, max_num_instances_per_task=None, subset=None, mix_gen=False):
         """Yields examples."""
         logger.info(f"Generating tasks from = {path}")
+        pos_ins_num, neg_ins_num = 0, 0
         with open(path, encoding="utf-8") as split_f:
             for line in split_f:
                 task_name = line.strip()
@@ -216,8 +220,50 @@ class NaturalInstructions(datasets.GeneratorBasedBuilder):
                         output_space_size = task_data.pop("output_space_size")
                     
                     for idx, instance in enumerate(instances):
-                        example = task_data.copy()
-                        example["id"] = instance["id"]
-                        example["Instance"] = instance
-                        yield f"{task_name}_{idx}", example
-
+                        if output_space_size == -1:
+                            # for gen tasks, we directly regard the groud truth as the only candidate output, so the labels are all 1
+                            ground_truth_outputs = instance.pop("output")
+                            # random select one ground truth output
+                            ground_truth_output = random.choice(ground_truth_outputs)
+                            new_instance = instance.copy()
+                            new_instance["candidate_output"] = ground_truth_output
+                            new_instance["label"] = "1"
+                            new_instance["id"] = instance["id"] + "_gen_ground_truth_0"
+                            
+                            example = task_data.copy()
+                            example["id"] = new_instance["id"]
+                            example["Instance"] = new_instance
+                            
+                            pos_ins_num += 1
+                            
+                            yield f"{task_name}_{idx}", example
+                        else:
+                            # for cls tasks, we combine each candidate output with the instance, the labels are 0 or 1
+                            ground_truth_outputs = instance.pop("output")
+                            assert isinstance(ground_truth_outputs, list)
+                            for candidate_idx, candidate in enumerate(output_space):
+                                new_instance = instance.copy()
+                                assert isinstance(candidate, str)
+                                new_instance["candidate_output"] = candidate
+                                # if this candidate is the ground truth, label is 1 (positive example), otherwise 0 (negative example)
+                                # note that ground_truth_outputs is case sensitive
+                                if normalize_answer(candidate) in [normalize_answer(x) for x in ground_truth_outputs]:
+                                    new_instance["label"] = "1"
+                                else:
+                                    new_instance["label"] = "0"
+                                # new_instance["label"] = "1" if candidate in ground_truth_outputs else "0"  
+                                new_instance["id"] = instance["id"] + f"_candidate_{candidate_idx}"
+                                
+                                example = task_data.copy()
+                                example["id"] = new_instance["id"]
+                                example["Instance"] = new_instance
+                                
+                                if new_instance["label"] == "1":
+                                    pos_ins_num += 1
+                                else:
+                                    neg_ins_num += 1
+                        
+                                yield f"{task_name}_{idx}_{candidate_idx}", example
+                                
+        print(f"==> For {subset}: pos_ins_num = {pos_ins_num}, neg_ins_num = {neg_ins_num}")
+        

@@ -33,9 +33,11 @@ git clone git@github.com:allenai/natural-instructions.git data
 Default T5 encoder-decoder (generator):
 
 ```bash
-sh scripts/train_generator.sh 6 4 t5-3b 0  ## GPU, batch size, model name, whether mixing generation tasks (0/1)
+sh scripts/train_generator.sh 6 4 t5-3b 0 1e-5 ## GPU, batch size, model name, whether mixing generation tasks (0/1), learning rate
 ```
 
 T5 encoder-classifier (binary single-label classifier):
 
 ```bash
+sh scripts/train_classifier.sh 2 8 t5-large 1 5e-5  ## GPU, batch size, model name, whether mixing generation tasks (0/1), learning rate
+```

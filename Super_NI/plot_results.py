@@ -12,16 +12,16 @@ def plot(save_path: str="./figures", file_name: str="performances", linewidth: f
     # set the font of the scale 
     plt.tick_params(labelsize=13)
     
-    x_index = ["T5-base", "T5-large", "T5-3B"]
+    x_index = ["T5-small", "T5-base", "T5-large", "T5-3B"]
     # for generator
-    mix_results = [33.1094, 38.75, 46.0469]
-    no_mix_results = [33.375, 40.0312, 42.25]
+    mix_results = [31.0469, 33.1094, 38.75, 46.0469]
+    no_mix_results = [32.8125, 33.375, 40.0312, 42.25]
     plt.plot(x_index, mix_results, color=COLORS[0], linestyle=LINE_STYLES[1], marker=MARKERS[1], label="Generator (w/ GEN)", linewidth=linewidth)
     plt.plot(x_index, no_mix_results, color=COLORS[2], linestyle=LINE_STYLES[1], marker=MARKERS[1], label="Generator (w/o GEN)", linewidth=linewidth)
     
     # for classifier
-    mix_results = [40.3594, 43.0156, 50.1562]
-    no_mix_results = [40.4844, 44.2812, 48.7656]
+    mix_results = [39.1094, 40.3594, 43.0156, 50.1562]
+    no_mix_results = [38.7812, 40.4844, 44.2812, 48.7656]
     plt.plot(x_index, mix_results, color=COLORS[0], linestyle=LINE_STYLES[0], marker=MARKERS[4], label="Classifier (w/ GEN)", linewidth=linewidth)
     plt.plot(x_index, no_mix_results, color=COLORS[2], linestyle=LINE_STYLES[0], marker=MARKERS[4], label="Classifier (w/o GEN)", linewidth=linewidth)
     

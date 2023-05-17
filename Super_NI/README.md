@@ -36,12 +36,14 @@ Use the following scripts to train and eval (all the hyper-parameters are emperi
 
 ```bash
 sh scripts/train_generator.sh 6 4 t5-3b 0 1e-5 ## GPU, batch size, model name, whether mixing generation tasks (0/1), learning rate
+python read_results.py --path output_generator/  ## read the results
 ```
 
 - T5 encoder-classifier (binary single-label classifier):
 
 ```bash
 sh scripts/train_classifier.sh 2 8 t5-large 1 5e-5  ## GPU, batch size, model name, whether mixing generation tasks (0/1), learning rate
+python read_results.py --path output_classifier  ## read the results
 ```
 
 ## Results
@@ -52,9 +54,11 @@ sh scripts/train_classifier.sh 2 8 t5-large 1 5e-5  ## GPU, batch size, model na
 
 Evaluation results on the *unseen* classification tasks of SuperNI's test set (**64/119**). Totally **6,400** test instances. 
 
-Ealuation metric: Exact Match (EM) score, which is equivalent to accuracy (we use the [default metric scripts](./src/compute_metrics.py) of SuperNI).
+Evaluation metric: Exact Match (EM) score, which is equivalent to accuracy (we use the [default metric scripts](./src/compute_metrics.py) of SuperNI).
 
 > Before calculating the score, both predictions and ground-truths are normalized (lower-cased and remove punctuations); note that one instance can have multiple ground-truths, so we calculate the max score over all the ground-truths.
+
+#### Table
 
 <table style="height: 91px;" width="642">
 <tbody>
@@ -96,6 +100,10 @@ Ealuation metric: Exact Match (EM) score, which is equivalent to accuracy (we us
 </tr>
 </tbody>
 </table>
+
+#### Plot
+
+![plot](./figures/performances.png)
 
 #### Observation
 

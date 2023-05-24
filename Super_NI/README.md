@@ -39,6 +39,9 @@ sh scripts/train_generator.sh 6 4 t5-3b 0 1e-5 ## GPU, batch size, model name, w
 python read_results.py --path output_generator/  ## read the results
 ```
 
+> Note: the results on cls tasks will be saved to `output_generator/`; if you want to load the trained generator and evalute it on the generation tasks, run `sh scripts/eval_generator.sh 2 32 t5-small 1` (same args as training), the results will be saved at `output_generator/eval_on_gen`.
+
+
 - T5 encoder-classifier (binary single-label classifier):
 
 ```bash

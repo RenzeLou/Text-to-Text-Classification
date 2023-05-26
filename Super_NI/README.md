@@ -39,8 +39,6 @@ sh scripts/train_generator.sh 6 4 t5-3b 0 1e-5 ## GPU, batch size, model name, w
 python read_results.py --path output_generator/  ## read the results
 ```
 
-> Note: the results on cls tasks will be saved to `output_generator/`; if you want to load the trained generator and evalute it on the generation tasks, run `sh scripts/eval_generator.sh 2 32 t5-small 1` (same args as training), the results will be saved at `output_generator/eval_on_gen`.
-
 
 - T5 encoder-classifier (binary single-label classifier):
 
@@ -49,7 +47,27 @@ sh scripts/train_classifier.sh 2 8 t5-large 1 5e-5  ## GPU, batch size, model na
 python read_results.py --path output_classifier  ## read the results
 ```
 
+### Evaluation
+
+After above training, the **eval results on the cls tasks** will be saved.
+
+- generator: `output_generator/` and `output_generator/eval_on_gen`
+
+The eval results on cls tasks will be saved to `output_generator/`; if you want to load the trained generator and evalute it on the generation tasks, run `sh scripts/eval_generator.sh 2 32 t5-small 1` (same args as training), the results will be saved at `output_generator/eval_on_gen`.
+
+Use `python calculate_overall_metric.py --cls_eval_path ./output_generator` to combine the results of cls and gen tasks; saved to `overall_predict_results.json`.
+
+- classifier: `output_classifier/`
+
+You can also use `python calculate_overall_metric.py` to get an overall metrics, i.e., using the gen results of generator.
+
+### Read overall results
+
+`python read_results.py` only read the results on the cls tasks. So, use `python read_overall_results.py` to print the overall results.
+
 ## Results
+
+### 1. comparison between generator and classifier (w/ and w/o generation tasks)
 
 ![Task distribution](./figures/Task%20distribution.png)
 
@@ -126,3 +144,16 @@ Evaluation metric: Exact Match (EM) score, which is equivalent to accuracy (we u
         - GEN mixed (balanced pos and neg):
         ![pos_neg_dis_mix](./figures/pos_vs_neg%20for%20cls%20(mix).png)
     
+
+### 2. overall results comparison (on the whole test set of SuperNI)
+
+1. **05/24**; use seperate models for different tasks (generator on gen tasks; classifier on cls tasks); only improve the performance of cls.
+
+![](https://img-blog.csdnimg.cn/3fdb6d7b14bd4b709da0ed70b63a6d10.png)
+
+TODO:
+ - how to unify cls & gen? 
+ - my current idea is to use this binary classifier to classify multiple generation candidates of the generator; 
+ - so how to get various generation candidates?
+    1. **vary instructions** because the model is usually sensitive to the instructions.
+    2. **a novel decoding strategy** that can produce highly different outputs on the same instruction.

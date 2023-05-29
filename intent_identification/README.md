@@ -47,7 +47,7 @@ The results will be saved in `./out` folder.
 
 ### 3. Results
 
-The results are shown in the following table:
+- The standard classification results are shown in the following table:
 
 <table style="height: 90px;" width="599">
 <tbody>
@@ -83,5 +83,144 @@ The results are shown in the following table:
 </table>
 
 
-<!-- **TODO**:
-- check the reason of the wired result of text-to-indices T5-3B. -->
+- 3-shot results (231 training instances):
+
+<table style="height: 90px;" width="599">
+<tbody>
+<tr style="height: 18px;">
+<td style="height: 36px; width: 128.219px;" rowspan="2"><strong>Model</strong></td>
+<td style="text-align: center; height: 18px; width: 144.25px;"><strong>Text-to-Indices</strong></td>
+<td style="text-align: center; height: 18px; width: 304.531px;" colspan="2"><strong>Text-to-Text</strong></td>
+</tr>
+<tr style="height: 18px;">
+<td style="text-align: center; height: 18px; width: 144.25px;"><strong>accuracy</strong></td>
+<td style="text-align: center; height: 18px; width: 128.219px;"><strong>accuracy</strong></td>
+<td style="text-align: center; height: 18px; width: 170.312px;"><strong>In-distribution ratio</strong></td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 128.219px;">T5-base (220M)</td>
+<td style="text-align: center; height: 18px; width: 144.25px;">
+<div>
+<div>7.8198</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 128.219px;">
+<div>
+<div>39.9471</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 170.312px;">
+<div>
+<div>54.1783</div>
+</div>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 128.219px;">T5-large (770M)</td>
+<td style="text-align: center; height: 18px; width: 144.25px;">
+<div>
+<div>2.2954</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 128.219px;">
+<div>
+<div>58.5590</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 170.312px;">
+<div>
+<div>79.2017</div>
+</div>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 128.219px;">T5-3B</td>
+<td style="text-align: center; height: 18px; width: 144.25px;">
+<div>
+<div>6.3414</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 128.219px;">
+<div>
+<div>66.1920</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 170.312px;">
+<div>
+<div>85.7688</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+
+- 5-shot results (385 training instances):
+
+<table style="height: 90px;" width="599">
+<tbody>
+<tr style="height: 18px;">
+<td style="height: 36px; width: 128.219px;" rowspan="2"><strong>Model</strong></td>
+<td style="text-align: center; height: 18px; width: 144.25px;"><strong>Text-to-Indices</strong></td>
+<td style="text-align: center; height: 18px; width: 304.531px;" colspan="2"><strong>Text-to-Text</strong></td>
+</tr>
+<tr style="height: 18px;">
+<td style="text-align: center; height: 18px; width: 144.25px;"><strong>accuracy</strong></td>
+<td style="text-align: center; height: 18px; width: 128.219px;"><strong>accuracy</strong></td>
+<td style="text-align: center; height: 18px; width: 170.312px;"><strong>In-distribution ratio</strong></td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 128.219px;">T5-base (220M)</td>
+<td style="text-align: center; height: 18px; width: 144.25px;">
+<div>
+<div>9.8834</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 128.219px;">
+<div>
+<div>58.6077</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 170.312px;">
+<div>
+<div>80.9025</div>
+</div>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 128.219px;">T5-large (770M)</td>
+<td style="text-align: center; height: 18px; width: 144.25px;">
+<div>
+<div>8.0091</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 128.219px;">
+<div>
+<div>71.0112</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 170.312px;">
+<div>
+<div>90.6442</div>
+</div>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 128.219px;">T5-3B</td>
+<td style="text-align: center; height: 18px; width: 144.25px;">
+<div>
+<div>12.687</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 128.219px;">
+<div>
+<div>73.7833</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 170.312px;">
+<div>
+<div>94.5031</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>

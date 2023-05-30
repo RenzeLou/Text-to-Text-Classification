@@ -126,6 +126,14 @@ Evaluation metric: Exact Match (EM) score, which is equivalent to accuracy (we u
 <td style="text-align: center; height: 19px; width: 117.383px;">48.77</td>
 <td style="text-align: center; height: 19px; width: 102.375px;">50.16</td>
 </tr>
+</tr>
+<tr style="height: 19px;">
+<td style="height: 19px; width: 125.391px;"><strong>T5-11B</strong></td>
+<td style="text-align: center; height: 19px; width: 140.453px;">47.67</td>
+<td style="text-align: center; height: 19px; width: 122.398px;"></td>
+<td style="text-align: center; height: 19px; width: 117.383px;">54.63</td>
+<td style="text-align: center; height: 19px; width: 102.375px;"></td>
+</tr>
 </tbody>
 </table>
 

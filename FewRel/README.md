@@ -1,4 +1,37 @@
 
+Used for investigating the difference between classifier and generator on the cross-label relation classification task.
+
+## 1. Environment
+
+- Python 3.8.0
+- PyTorch 2.0.0
+- CUDA 11.7
+- Transformers 4.27.4
+
+Prepare the anaconda environment:
+
+```bash
+conda create -n t2t python=3.8.0
+conda activate t2t
+pip install -r requirements.txt
+```
+
+## 2. Prepare the data
+
+Download FewRel_v1_ori data from [this repository](https://github.com/RenzeLou/MORE/tree/main/data/datasets/fewrel_ori).
+
+Run the following command to preprocess the data:
+
+```bash
+python data_process_cls.py
+python data_process_gen.py --label_semantic
+```
+
+## 3. Results
+
+- For generator, do text-to-text generation with instruction (candidate labels) appended to the input:
+
+![](https://img-blog.csdnimg.cn/5b6572b324154c47a217365ad30d90b3.png)
 
 ```bash
 sh scripts/run_sen_gen.sh 4 48 t5-small
@@ -6,6 +39,10 @@ sh scripts/run_sen_gen.sh 4 24 t5-base
 sh scripts/run_sen_gen.sh 4 12 t5-large
 sh scripts/run_sen_gen.sh 5 6 t5-3b
 ```
+
+- For classifier, put each label candidate into the input and do binary classification. When training, construct 1 negative sample for each positive sample to balance the data.
+
+![](https://img-blog.csdnimg.cn/3e71381a56644185be14235c47d2bbc0.png)
 
 
 ```bash
@@ -135,3 +172,8 @@ sh scripts/run_sen_cls.sh ​7​ ​8​ t5-​3b ​1​e-4
 </tr>
 </tbody>
 </table>
+
+### observation
+
+- The generator will easily overfit the training label, even if we use the instruction to tell him the target label set (high in-train ratios).
+- Larger model will overfit more easily. 

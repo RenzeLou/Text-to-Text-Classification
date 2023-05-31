@@ -34,16 +34,35 @@ Add `--split` to randomly split 10% samples from training set as validation set 
 For text-to-text generation, run the following command:
 
 ```bash
-sh scripts/run_sen_gen.sh [GPU] [batch_size]
+# standard training
+sh scripts/run_sen_gen.sh [GPU] [batch_size] [model_name] [learning_rate]
+# for example
+sh scripts/run_sen_gen.sh 7 32 t5-small 5e-4
+sh scripts/run_sen_gen.sh 7 4 t5-3b 5e-4
+
+# few-shot training
+sh scripts/run_sen_gen_few-shot.sh [GPU] [batch_size] [shot] [model_name] [learning_rate]
+# for example
+sh scripts/run_sen_gen_few-shot.sh 7 32 3 t5-small 5e-4
+sh scripts/run_sen_gen_few-shot.sh 7 32 5 t5-small 5e-4
 ```
 
 For text-to-indices classification, run the following command:
 
 ```bash
-sh scripts/run_sen_cls.sh [GPU] [batch_size]
+sh scripts/run_sen_cls.sh [GPU] [batch_size] [model_name] [learning_rate]
+# for example
+sh scripts/run_sen_cls.sh 7 32 t5-small 5e-4
+sh scripts/run_sen_cls.sh 7 4 t5-3b 1e-4
+
+# few-shot training
+sh scripts/run_sen_cls_few-shot.sh [GPU] [batch_size] [shot] [model_name] [learning_rate]
+# for example
+sh scripts/run_sen_cls_few-shot.sh 7 32 3 t5-small 5e-4
+sh scripts/run_sen_cls_few-shot.sh 7 32 5 t5-small 5e-4
 ```
 
-The results will be saved in `./out` folder.
+The results will be saved in `./out` or `./out/k-shot`.
 
 ### 3. Results
 

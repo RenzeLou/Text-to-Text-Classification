@@ -62,6 +62,13 @@ The results will be saved in `./out` folder.
 <td style="text-align: center; height: 18px; width: 170.312px;"><strong>In-distribution ratio</strong></td>
 </tr>
 <tr style="height: 18px;">
+<td style="height: 18px; width: 128.219px;">T5-small (60M)</td>
+<td style="text-align: center; height: 18px; width: 144.25px;">91.3961</td>
+<td style="text-align: center; height: 18px; width: 128.219px;">91.0065</td>
+<td style="text-align: center; height: 18px; width: 170.312px;">99.8701</td>
+</tr>
+</tr>
+<tr style="height: 18px;">
 <td style="height: 18px; width: 128.219px;">T5-base (220M)</td>
 <td style="text-align: center; height: 18px; width: 144.25px;">93.9935</td>
 <td style="text-align: center; height: 18px; width: 128.219px;">93.7013</td>
@@ -96,6 +103,25 @@ The results will be saved in `./out` folder.
 <td style="text-align: center; height: 18px; width: 144.25px;"><strong>accuracy</strong></td>
 <td style="text-align: center; height: 18px; width: 128.219px;"><strong>accuracy</strong></td>
 <td style="text-align: center; height: 18px; width: 170.312px;"><strong>In-distribution ratio</strong></td>
+</tr>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 128.219px;">T5-small (60M)</td>
+<td style="text-align: center; height: 18px; width: 144.25px;">
+<div>
+<div>4.3651</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 128.219px;">
+<div>
+<div>13.4298</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 170.312px;">
+<div>
+<div>6.6371</div>
+</div>
+</td>
+</tr>
 </tr>
 <tr style="height: 18px;">
 <td style="height: 18px; width: 128.219px;">T5-base (220M)</td>
@@ -167,6 +193,24 @@ The results will be saved in `./out` folder.
 <td style="text-align: center; height: 18px; width: 144.25px;"><strong>accuracy</strong></td>
 <td style="text-align: center; height: 18px; width: 128.219px;"><strong>accuracy</strong></td>
 <td style="text-align: center; height: 18px; width: 170.312px;"><strong>In-distribution ratio</strong></td>
+<tr style="height: 18px;">
+<td style="height: 18px; width: 128.219px;">T5-small (60M)</td>
+<td style="text-align: center; height: 18px; width: 144.25px;">
+<div>
+<div>5.9379</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 128.219px;">
+<div>
+<div>12.6634</div>
+</div>
+</td>
+<td style="text-align: center; height: 18px; width: 170.312px;">
+<div>
+<div>13.1359</div>
+</div>
+</td>
+</tr>
 </tr>
 <tr style="height: 18px;">
 <td style="height: 18px; width: 128.219px;">T5-base (220M)</td>

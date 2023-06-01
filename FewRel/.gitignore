@@ -142,3 +142,4 @@ out/
 download/
 .vscode/
 wandb/
+!data/pid2name.json

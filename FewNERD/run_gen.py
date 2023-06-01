@@ -738,7 +738,7 @@ def main():
         # process and return a list of tuples for this batch, each tuple is a (entity, label) pair
         processed_labels = process_to_entity_label(decoded_labels)
         processed_preds = process_to_entity_label(decoded_preds)
-        # print(processed_preds[:2])
+        # print(processed_preds[:2])  # TODO: why the printed data are from dev set?
         # print(processed_labels[:10])
         # exit()
 

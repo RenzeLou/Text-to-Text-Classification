@@ -1,4 +1,6 @@
 # data
+data/banking_data/cls/
+data/banking_data/gen/
 beaker_configs/ni_*.yaml
 backup/
 
@@ -131,10 +133,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-data/tasks/
+
+# big file
+cache/
+output_attention/
 output/
-output_*/
+out/
+download/
+.vscode/
 wandb/
-!data/add_output_space.py
-!data/splits/categories_cls_gen.json
-!data/splits/task2categoies.json

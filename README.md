@@ -12,7 +12,7 @@ We tend to systematically study this research question by conducting experiments
 
 ## 2. News
 
-- 06/02/2023: **Project stopped due to the scooping :(**
+- 06/02/2023: **Project stopped due to the scooping :(** (https://arxiv.org/pdf/2211.08099.pdf; https://arxiv.org/pdf/2110.08426.pdf).
 - 06/01/2023: Upload **[FewNERD](https://github.com/thunlp/Few-NERD/tree/main)** experiments, a challenging NER datasets where there are 66 fine-grained entity types.
 - 05/29/2023: Upload **[FewRelv1.0](https://github.com/thunlp/FewRel)** experiments to investigate the cross-label generalization setting. See the [README](./FewRel/README.md) for more details.
 - 05/14/2023: Add **[SuperNI](https://github.com/allenai/natural-instructions)** experiments to investigate (1) the difference between classifier and generator on the CLS part of the held-out evaluation; (2) whether using generation tasks (training) can help with generalization on classification tasks (testing). See the [README](./Super_NI/README.md) for more details.

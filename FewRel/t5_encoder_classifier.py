@@ -1,3 +1,8 @@
+'''
+customize a T5 encoder for sequence classification task
+basically a pretrained T5-encoder + a linear layer on the top of <s> token's hidden state
+'''
+
 import torch
 from torch import nn
 from torch.nn import BCEWithLogitsLoss, CrossEntropyLoss, MSELoss

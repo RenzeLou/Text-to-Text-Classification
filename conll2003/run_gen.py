@@ -747,6 +747,8 @@ def main():
         prediction_lens = [np.count_nonzero(pred != tokenizer.pad_token_id) for pred in preds]
         result["gen_len"] = np.mean(prediction_lens)
         result["instance_num"] = len(decoded_preds)
+        # count how many ground-truth entities are empty
+        result["empty_label_ins_num"] = sum([1 for label in processed_labels if len(label) == 0])
         return result
 
     # Initialize our Trainer

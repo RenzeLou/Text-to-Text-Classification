@@ -139,5 +139,13 @@ output_attention/
 output/
 download/
 .vscode/
-SuperNI/data/tasks/
-SuperNI/wandb/
+# Ignore everything in SuperNI/data/
+SuperNI/data/*
+# Don't ignore SuperNI/data/ itself
+!SuperNI/data/
+# Don't ignore these specific files:
+!SuperNI/data/add_output_space.py
+!SuperNI/data/splits/categories_cls_gen.json
+!SuperNI/data/splits/task2categoies.json
+# Ignore everything else in SuperNI/data/splits/
+SuperNI/data/splits/*

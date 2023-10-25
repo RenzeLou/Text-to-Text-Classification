@@ -14,7 +14,7 @@ if unparsed:
 
 path = args.path  ## modify the path according to your own need
 
-del_file=['training_args.bin','config.json', 'pytorch_model.bin', 'special_tokens_map.json', 'tokenizer_config.json', 'vocab.txt'] ## modify it
+del_file=['pytorch_model-00001-of-00002.bin','pytorch_model-00002-of-00002.bin','training_args.bin','config.json', 'pytorch_model.bin', 'special_tokens_map.json', 'tokenizer_config.json', 'vocab.txt'] ## modify it
 
 if args.file_names is not None:
     addition = args.file_names.split(",")

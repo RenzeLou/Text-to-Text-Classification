@@ -135,6 +135,9 @@ data/tasks/
 output/
 output_*/
 wandb/
-!data/add_output_space.py
-!data/splits/categories_cls_gen.json
-!data/splits/task2categoies.json
+# data/*
+# !/data/add_output_space.py
+# !/data/splits/
+# data/splits/*
+# !/data/splits/categories_cls_gen.json
+# !/data/splits/task2categoies.json

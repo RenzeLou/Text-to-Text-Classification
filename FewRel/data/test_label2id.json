@@ -1,0 +1,18 @@
+{
+    "constellation": 0,
+    "spouse": 1,
+    "sport": 2,
+    "member_of": 3,
+    "located_in_or_next_to_body_of_water": 4,
+    "part_of": 5,
+    "competition_class": 6,
+    "military_rank": 7,
+    "voice_type": 8,
+    "follows": 9,
+    "child": 10,
+    "position_played_on_team_/_speciality": 11,
+    "main_subject": 12,
+    "original_language_of_film_or_tv_show": 13,
+    "crosses": 14,
+    "mother": 15
+}
